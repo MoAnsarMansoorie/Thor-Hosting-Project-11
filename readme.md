@@ -2,7 +2,7 @@
 
 ![badge](https://img.shields.io/badge/project--11-Thor--hosting-brightgreen)
 
-[Link of deploy live project]()
+[Link of deploy live project](https://thorhostingpage.netlify.app/)
 
 ![LCO](./view11.png)
 
