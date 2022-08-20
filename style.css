@@ -35,6 +35,12 @@
     color: black;
 }
 
+.nav-btnn{
+  font-size: large;
+  font-weight: bold;
+  list-style-type: none;
+}
+
 .nav-btn{
     padding: 1rem;
     border-radius: 10px;
@@ -76,6 +82,8 @@
 
 .right-section{
     background-color: white;
+    width: 600;
+    height: 600;
 }
 
 .quality-container{
@@ -338,6 +346,176 @@
 
 
 
+ @media screen and (max-width:786px) {
+  
+  nav{
+    padding: 1rem;
+    margin-top: -1rem;
+  }
+
+  .nav-item, .nav-item-active{
+    display: none;
+  }
+  
+  .header-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+  }
+
+  .left-section{
+    margin-top: 3.5rem;
+    margin-left: -1.3rem;
+  }
+
+  .left-section h1{
+    font-size: 40px;
+
+  }
+
+  .left-section p{
+    font-size: 20px;
+  }
+
+  .left-btn{
+    margin-left: 10rem;
+  }
+
+  .right-section{
+    margin-top: 2.5rem;
+    width: 300px;
+    margin-left: 0;
+    height: 300px;
+  }
+
+  .quality-container{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .quality-left img{
+    margin-left: 0;
+    width: 300px;
+    height: 300px;
+    margin-top: 10rem;
+  }
+
+  .quality-right{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .quality-header{
+    color: #0568eb;
+    font-size: 40px;
+  }
+
+  .quality-description{
+    font-size: 20px;
+  }
+
+  .quality-btn{
+    padding: 1rem;
+    width: 250px;
+    margin-left: 8rem;
+    
+  }
+
+  .technical-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .technical-left{
+    margin-top: 5rem;
+  }
+
+  .technical-header{
+    color: #0568eb;
+    font-size: 40px;
+    margin-left:2.5rem;
+  }
+
+  .technical-description{
+  
+    font-size: 20px;
+    margin-left: 2.5rem;
+  }
+
+  .technical-btn{
+    margin-left: 10rem;
+  }
+
+  .technical-right img{
+    width: 300px;
+    height: 300px;
+    margin-left: 0;
+    margin-top: 3rem;
+  }
+
+  .hosting-container{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .hosting-right{
+    margin-left: 2.5rem;
+  }
+
+  .cards-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pricing-container{
+    display: flex;
+    flex-direction: column;
+    height: 290vh;
+    background-color: #0568eb;
+  }
+
+  .price-card-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+  .testimonial-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  .testimonial-card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .testimonial-top-desc{
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+
+  .footer-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 18rem;
+  }
+
+  .footer-right{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .footer-btn{
+    margin-left:3rem;
+  }
+ }
 
 
 
