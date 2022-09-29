@@ -48,21 +48,21 @@
     color: blue;
 }
 
-.header-section{
+.header-container{
     display: flex;
     height: 90vh;
     align-items: center;
     justify-content: space-between;
 }
 
-.left-section h1{
+.left-contain h1{
     margin-left: 5rem;
     font-size: 60px;
     font-weight: bolder;
     margin-top: -20%;
 }
 
-.left-section p{
+.left-contain p{
     margin-left: 5rem;
     font-size: 20px;
     font-weight: 600;
@@ -70,7 +70,7 @@
     color: #686868;
 }
 
-.left-btn{
+.left-head-btn{
     margin-left: 5rem;
     margin-top: 1.5rem;
     padding: 1rem;
@@ -80,13 +80,13 @@
     
 }
 
-.right-section{
+.right-contain{
     background-color: white;
     width: 600;
     height: 600;
 }
 
-.quality-container{
+.quality-contain{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -116,7 +116,7 @@
     color: aliceblue;
 }
 
-.technical-container{
+.technical-contain{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -357,51 +357,51 @@
     display: none;
   }
   
-  .header-section{
+  .header-container{
     display: flex;
     flex-direction: column;
     margin-top: 1.5rem;
   }
 
-  .left-section{
+  .left-contain{
     margin-top: 3.5rem;
     margin-left: -1.3rem;
   }
 
-  .left-section h1{
+  .left-contain h1{
     font-size: 40px;
 
   }
 
-  .left-section p{
+  .left-contain p{
     font-size: 20px;
   }
 
-  .left-btn{
+  .left-head-btn{
     margin-left: 10rem;
   }
 
-  .right-section{
+  .right-contain{
     margin-top: 2.5rem;
     width: 300px;
     margin-left: 0;
     height: 300px;
   }
 
-  .quality-container{
+  .quality-contain{
     display: flex;
     flex-direction: column;
     
   }
 
-  .quality-left img{
+  .quality-left-part img{
     margin-left: 0;
     width: 300px;
     height: 300px;
     margin-top: 10rem;
   }
 
-  .quality-right{
+  .quality-right-part{
     display: flex;
     flex-direction: column;
   }
@@ -422,12 +422,12 @@
     
   }
 
-  .technical-container{
+  .technical-contain{
     display: flex;
     flex-direction: column;
   }
 
-  .technical-left{
+  .technical-left-part{
     margin-top: 5rem;
   }
 
@@ -447,7 +447,14 @@
     margin-left: 10rem;
   }
 
-  .technical-right img{
+  .right-contain img{
+    width: 300px;
+    height: 300px;
+    margin-left: 0;
+    margin-top: 3rem;
+  }
+
+  .technical-right-part img{
     width: 300px;
     height: 300px;
     margin-left: 0;
